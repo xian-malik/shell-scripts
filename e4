@@ -1,0 +1,4 @@
+echo " Enter two number as 'base' & 'height' : "
+read a b
+c=$((($a*$b)/2))
+echo "The answer is : $c"

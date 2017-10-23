@@ -1,0 +1,5 @@
+echo "Enter two number: "
+read a b
+c=$(($a+$b))
+echo "Your result is : "
+echo "$a + $b = $c"

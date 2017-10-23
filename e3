@@ -1,0 +1,4 @@
+echo "Enter Two number : "
+read a b
+c=$(($a*$a + 2*$a*$b + $b*$b))
+echo "$c"

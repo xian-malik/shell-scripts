@@ -1,0 +1,4 @@
+echo "Enter two number"
+read v i
+r=$(( $v/$i ))
+echo "answer: $r"

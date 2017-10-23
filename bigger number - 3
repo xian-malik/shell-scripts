@@ -1,0 +1,36 @@
+echo "Enter 3 numbers: "
+read a b c
+
+if [ $a -gt $b ]
+then
+	if [ $a -gt $c ]
+	then
+		echo "$a bigger"
+	elif [ $a -lt $c ]
+	then
+		echo "$c bigger"
+	else
+		echo "$a and $c bigger than $b"
+	fi
+elif [ $a -lt $b ]
+then
+	if [ $b -gt $c ]
+	then
+		echo "$b bigger"
+	elif [ $b -lt $c ]
+	then
+		echo "$c bigger"
+	else
+		echo "$b and $c bigger than $a"
+	fi
+else
+	if [ $a -gt $c ]
+	then
+		echo "$a and $b bigger than $c"
+	elif [ $a -lt $c ]
+	then
+		echo "$c bigger"
+	else
+		echo "all equal"
+	fi
+fi

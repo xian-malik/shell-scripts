@@ -1,0 +1,13 @@
+echo "Enter two numbers: "
+read a b
+
+if [ $a -gt $b ]
+then
+	echo "$a bigger"
+elif [ $a -lt $b ]
+then
+	echo "$b bigger"
+else
+	echo "Equal"
+fi
+

@@ -1,4 +1,4 @@
-for((c=1; c<=5; c++))
+for((i=1; i<=5; i++))
 do
-	echo "Welcome $c times"
+	echo "Welcome $i times"
 done
